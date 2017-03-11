@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import UsersList from './components/UsersList';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
-      <div className="App">
-          <h4>App Ready</h4>
-      </div>
-    );
-  }
-}
+        <div>
+            <UsersList/>
+        </div>
+    )
+};
 
 export default App;
